@@ -324,7 +324,7 @@ def main():
 
         mark_place = 0
         while True:
-            select_data = choice("\nPlease select the information you would "
+            select_data = choice("\n Please choose the information you would "
                                  "like to obtain.\n\n [ts] Time Stats\n [ss] "
                                  "Station Stats\n [tds] Trip Duration Stats\n "
                                  "[us] User Stats\n [rd] Display Raw Data\n "
@@ -344,7 +344,7 @@ def main():
             elif select_data == 'r':
                 break
 
-        restart = choice("\n Do you want to restart?\n\n[y]Yes\n[n]No\n\n>")
+        restart = choice("\n Do you like to restart?\n\n[y]Yes\n[n]No\n\n>")
         if restart.lower() != 'y':
             break
 
