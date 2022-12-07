@@ -13,10 +13,13 @@ In this project, you will make use of Python to explore data related to bike sha
 The following file contains necessary code:
 
 project_2
+
 The following files are not uploaded to remote repo by using .gitignore because the files are too big:
 
 chicago.csv
+
 new_york_city.csv
+
 washington.csv
 
 
