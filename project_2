@@ -33,8 +33,8 @@ def choice(prompt, choices=('y', 'n')):
             if list(filter(lambda x: x in choices, choice)) == choice:
                 break
 
-        prompt = ("\nSomething is not right. Please mind the formatting and "
-                  "be sure to enter a valid option:\n>")
+        prompt = ("\nSomething is wrong. Please mind the formatting and "
+                  "be sure to enter a valid value:\n>")
 
     return choice
 
@@ -247,7 +247,7 @@ def user_stats(df, city):
         print("For the selected filter, the most common birth year amongst "
               "riders is: " + most_common_birth_year)
     except:
-        print("We're sorry! There is no data of birth year for {}."
+        print("sorry! There is no data of birth year for {}."
               .format(city.title()))
 
     print("\nThis took {} seconds.".format((time.time() - start_time)))
